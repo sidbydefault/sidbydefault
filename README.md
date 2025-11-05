@@ -9,34 +9,6 @@ I'm a **Machine Learning Engineer** with a strong foundation in AI/ML research a
 Currently, I'm pushing the boundaries of **LLMs**, **RAG systems**, and **Computer Vision** to solve real-world problems in fintech, healthcare, and enterprise AI.
 
 ---
-
-## 💼 Professional Experience
-
-### 🔹 Machine Learning Engineer @ [Savart](https://savart.com) *(June 2023 - Present)*
-
-**Transforming Financial Services with AI:**
-
-- 🤖 **AI Research-Note Generator**: Built an end-to-end system that reduces analyst report generation from 4-7 days to under 10 minutes using Elasticsearch, Haystack, and open-source LLMs
-- 💬 **RAG Chatbot**: Deployed a customer-service assistant powered by Qwen2.5 and LangChain with ChromaDB for financial literacy and investment guidance
-- 🎯 **Computer Vision for Sports Analytics**: Created a diagnostic solution using OpenCV, MediaPipe, and PyTorch for the Khelo India Rising Talent Identification (KIRTI) program, launching Savart's Enterprise division
-- 📊 **Trend Analysis Engine**: Delivered a jewelry retail PoC that scrapes social media using NLP to extract design trends with automated workflow management
-
-### 🔹 Data Science Intern @ Neurobit *(Jan 2023 - May 2023)*
-
-**Healthcare ML & Signal Processing:**
-
-- ⚕️ Optimized PPG signal-processing pipeline for RR-interval estimation
-- 📈 Benchmarked ML models on MIMIC-III data for ICU patient mortality prediction
-
-### 🔹 Data Science Associate Intern @ ZS Associates *(June 2022 - Sep 2022)*
-
-**Privacy-Preserving AI:**
-
-- 🔐 Built Conditional GAN in PyTorch for synthetic medical record generation
-- 🧠 Developed Transformer Hawkes Process PoC for simulating medical histories from insurance data
-
----
-
 ## 🎓 Education
 
 **IIIT Hyderabad** *(Aug 2017 - Dec 2022)*
