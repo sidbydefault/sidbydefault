@@ -13,7 +13,9 @@ Currently, I'm exploring the world of **LLMs**, **RAG systems**, and **Computer 
 ## 🎓 Education
 
 **IIIT Hyderabad** *(Aug 2017 - Dec 2022)*
+
 B.Tech & M.S. by Research in Electronics and Communication Engineering
+
 CGPA: 8.0/10
 
 ---
