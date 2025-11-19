@@ -9,6 +9,51 @@ I'm a **Machine Learning Engineer** with a strong foundation in AI/ML research a
 Currently, I'm pushing the boundaries of **LLMs**, **RAG systems**, and **Computer Vision** to solve real-world problems in fintech, healthcare, and enterprise AI.
 
 ---
+
+## 💼 Featured Projects
+
+### 🏥 Clinical Trial MCP Server
+*HIPAA-Compliant AI-Powered Clinical Trial Intelligence*
+
+A production-ready Model Context Protocol (MCP) server designed for healthcare institutions to deploy locally with proprietary databases, enabling intelligent clinical trial analysis and patient cohort matching.
+
+**Key Achievements:**
+- 🗄️ **Hybrid Database Architecture**: Integrated Milvus vector database with 45K AACT trial embeddings and PostgreSQL managing 400K Synthea patient records
+- 🔍 **Intelligent RAG Workflow**: Implemented semantic search combining Milvus hybrid search with open-source embeddings and SQLModel queries across demographics/conditions tables
+- 🎯 **Automated Trial Planning**:
+  - Historical trial analysis and patient cohort matching with multi-dimensional filters (age/gender/condition)
+  - Complex SQL joins for automated eligibility criteria generation
+  - Recruitment list generation with HIPAA-compliant on-premise operation
+- 🔒 **Enterprise-Ready**: Designed for institutional deployment with proprietary databases, ensuring data privacy and regulatory compliance
+
+**Tech Stack**: Python, Milvus, PostgreSQL, SQLModel, MCP Protocol, RAG, Vector Embeddings
+
+---
+
+### 🛒 E-Commerce Data Analytics Platform
+*End-to-End Streaming ETL with Advanced Customer Intelligence*
+
+Enterprise-grade data analytics platform built on Databricks, implementing modern data engineering best practices with medallion architecture and automated quality controls.
+
+**Key Achievements:**
+- 🏗️ **Scalable Data Pipeline**:
+  - Architected streaming ETL using Delta Live Tables with Medallion Architecture (Bronze-Silver-Gold)
+  - Processed 180K+ customer records with PySpark for distributed computing
+  - Implemented SCD Type 2 for comprehensive historical tracking
+- ✅ **Data Quality at Scale**: Built 13 automated data quality validations ensuring pipeline reliability and data integrity
+- 📊 **Advanced Analytics & Segmentation**:
+  - Developed RFM-based customer segmentation across 8 distinct cohorts
+  - Product performance analytics spanning 5 performance tiers
+  - Strategic classification system for margin analysis and health scoring
+  - Generated actionable business insights for targeted marketing and inventory optimization
+- 🚀 **Modern MLOps Practices**:
+  - Infrastructure-as-code with Databricks Asset Bundles
+  - Multi-environment CI/CD workflows (dev/prod)
+  - Python-based synthetic data generator with parameterized SCD Type 2 scenarios for automated testing
+
+**Tech Stack**: Databricks, PySpark, Delta Live Tables, SQL, Python, CI/CD, Data Quality Testing
+
+---
 ## 🎓 Education
 
 **IIIT Hyderabad** *(Aug 2017 - Dec 2022)*
@@ -33,28 +78,33 @@ J. Rasgado-Toledo, **S. S. Duvvada**, et al.
 ### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
 
 ### **AI/ML Specializations**
-- 🤖 **Large Language Models**: RAG, Fine-tuning, Prompt Engineering
-- 🔍 **NLP & Information Retrieval**: Elasticsearch, Haystack, LangChain
+- 🤖 **Large Language Models**: RAG, MCP Protocol, Fine-tuning, Prompt Engineering
+- 🔍 **NLP & Information Retrieval**: Elasticsearch, Haystack, LangChain, LangGraph
 - 👁️ **Computer Vision**: OpenCV, MediaPipe, Object Detection
 - 📊 **Deep Learning**: GANs, Transformers, Hawkes Processes
 - 📈 **Signal Processing**: PPG Analysis, Time-Series Forecasting
 
-### **MLOps & Tools**
-- **Vector Databases**: ChromaDB, FAISS
-- **Data Engineering**: NumPy, Pandas, Scikit-learn
-- **Deployment**: Docker, REST APIs, Cloud Platforms
+### **Data Engineering & MLOps**
+- **Big Data Platforms**: Databricks, Delta Live Tables, Medallion Architecture
+- **Vector Databases**: Milvus, ChromaDB, FAISS
+- **Data Engineering**: PySpark, NumPy, Pandas, SQLModel
+- **Databases**: PostgreSQL, SQL Server
+- **MLOps Tools**: MLflow, Databricks Asset Bundles, Docker, fastAPI
+- **Deployment**: Docker, REST APIs, CI/CD Pipelines
 
 ---
 
 ## 🌟 What I'm Working On
 
-- 🔭 Exploring advanced RAG architectures and multi-modal AI systems
-- 🌱 Contributing to open-source ML tools and frameworks
-- 💡 Building production-grade AI solutions that create tangible business value
-- 📚 Researching the intersection of neuroscience and AI
+- 🔭 Building enterprise-grade RAG systems with MCP protocol for healthcare and clinical trial intelligence
+- 🏗️ Architecting scalable data platforms using Databricks and modern data engineering practices
+- 🌱 Contributing to open-source ML tools and healthcare AI frameworks
+- 💡 Developing production-grade AI solutions that bridge research and real-world business impact
+- 📚 Exploring the intersection of vector databases, LLMs, and data engineering for AI-powered analytics
 
 ---
 
