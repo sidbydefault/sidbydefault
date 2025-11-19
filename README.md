@@ -4,54 +4,46 @@
 
 ## 🚀 About Me
 
-I'm a **Machine Learning Engineer** with a strong foundation in AI/ML research and production systems. I specialize in building end-to-end AI solutions that bridge the gap between cutting-edge research and practical business applications. With a dual degree (B.Tech & M.S. by Research) in ECE from IIIT Hyderabad, I combine academic rigor with hands-on industry experience.
+Hey! I'm a Machine Learning Engineer who actually likes debugging production systems at 2 AM (just kidding, I don't—but I've done it enough times). I build AI stuff that people can actually use, not just impressive Jupyter notebooks that die in staging.
 
-Currently, I'm pushing the boundaries of **LLMs**, **RAG systems**, and **Computer Vision** to solve real-world problems in fintech, healthcare, and enterprise AI.
+Got my B.Tech and M.S. by Research from IIIT Hyderabad, where I learned that research papers and production code speak very different languages. These days I'm working with LLMs, RAG systems, and computer vision—basically teaching computers to read, remember, and see things. Sometimes it even works on the first try.
 
 ---
 
-## 💼 Featured Projects
+## 💼 Stuff I've Built
 
 ### 🏥 Clinical Trial MCP Server
-*HIPAA-Compliant AI-Powered Clinical Trial Intelligence*
+*Making sense of clinical trials without losing patient data to the cloud*
 
-A production-ready Model Context Protocol (MCP) server designed for healthcare institutions to deploy locally with proprietary databases, enabling intelligent clinical trial analysis and patient cohort matching.
+Built this for healthcare institutions who (rightfully) don't want to send their patient data to random APIs. It's an MCP server that runs entirely on-premise, matching patients to clinical trials using vector search and some SQL magic.
 
-**Key Achievements:**
-- 🗄️ **Hybrid Database Architecture**: Integrated Milvus vector database with 45K AACT trial embeddings and PostgreSQL managing 400K Synthea patient records
-- 🔍 **Intelligent RAG Workflow**: Implemented semantic search combining Milvus hybrid search with open-source embeddings and SQLModel queries across demographics/conditions tables
-- 🎯 **Automated Trial Planning**:
-  - Historical trial analysis and patient cohort matching with multi-dimensional filters (age/gender/condition)
-  - Complex SQL joins for automated eligibility criteria generation
-  - Recruitment list generation with HIPAA-compliant on-premise operation
-- 🔒 **Enterprise-Ready**: Designed for institutional deployment with proprietary databases, ensuring data privacy and regulatory compliance
+**What it does:**
+- Searches through 45K clinical trials using Milvus vector DB and matches them with 400K synthetic patient records in PostgreSQL. Turns out vector embeddings are pretty good at understanding medical jargon.
+- Built a RAG pipeline that combines semantic search with actual SQL queries—because sometimes you just need to filter by age > 65, you know?
+- Automatically generates eligibility criteria and recruitment lists. Saves a lot of manual Excel spreadsheet hell.
+- Everything runs locally. HIPAA compliance isn't optional when you're dealing with health data.
 
-**Tech Stack**: Python, Milvus, PostgreSQL, SQLModel, MCP Protocol, RAG, Vector Embeddings
+The fun part was making Milvus and PostgreSQL play nice together—vector search for finding relevant trials, then complex SQL joins for the nitty-gritty filtering.
+
+**Built with**: Python, Milvus, PostgreSQL, SQLModel, MCP Protocol, RAG
 
 ---
 
 ### 🛒 E-Commerce Data Analytics Platform
-*End-to-End Streaming ETL with Advanced Customer Intelligence*
+*When "just use Excel" stops being a viable option*
 
-Enterprise-grade data analytics platform built on Databricks, implementing modern data engineering best practices with medallion architecture and automated quality controls.
+Built a proper data pipeline on Databricks because someone decided 180K customer records was too many for Google Sheets. Implements the whole medallion architecture thing (Bronze-Silver-Gold) that data engineers love talking about at conferences.
 
-**Key Achievements:**
-- 🏗️ **Scalable Data Pipeline**:
-  - Architected streaming ETL using Delta Live Tables with Medallion Architecture (Bronze-Silver-Gold)
-  - Processed 180K+ customer records with PySpark for distributed computing
-  - Implemented SCD Type 2 for comprehensive historical tracking
-- ✅ **Data Quality at Scale**: Built 13 automated data quality validations ensuring pipeline reliability and data integrity
-- 📊 **Advanced Analytics & Segmentation**:
-  - Developed RFM-based customer segmentation across 8 distinct cohorts
-  - Product performance analytics spanning 5 performance tiers
-  - Strategic classification system for margin analysis and health scoring
-  - Generated actionable business insights for targeted marketing and inventory optimization
-- 🚀 **Modern MLOps Practices**:
-  - Infrastructure-as-code with Databricks Asset Bundles
-  - Multi-environment CI/CD workflows (dev/prod)
-  - Python-based synthetic data generator with parameterized SCD Type 2 scenarios for automated testing
+**What it actually does:**
+- Processes streaming data with Delta Live Tables and PySpark. Added SCD Type 2 tracking so you can see what customers looked like six months ago when they actually liked your products.
+- Created 13 different data quality checks. Turns out, bad data in = garbage insights out. Who knew?
+- Built RFM segmentation to figure out which customers are worth keeping and which ones are just browsing. Split them into 8 cohorts—from "throws money at us" to "probably forgot their password."
+- Product performance analytics across 5 tiers. Helps answer exciting questions like "why isn't this selling?" and "should we even stock this?"
+- Wrote a synthetic data generator because testing with production data is how you end up on HackerNews for the wrong reasons.
 
-**Tech Stack**: Databricks, PySpark, Delta Live Tables, SQL, Python, CI/CD, Data Quality Testing
+The whole thing deploys with Databricks Asset Bundles, so you can break dev and prod independently. Modern MLOps, baby.
+
+**Built with**: Databricks, PySpark, Delta Live Tables, SQL, Python, way too much YAML
 
 ---
 ## 🎓 Education
@@ -98,28 +90,28 @@ J. Rasgado-Toledo, **S. S. Duvvada**, et al.
 
 ---
 
-## 🌟 What I'm Working On
+## 🌟 Currently Obsessed With
 
-- 🔭 Building enterprise-grade RAG systems with MCP protocol for healthcare and clinical trial intelligence
-- 🏗️ Architecting scalable data platforms using Databricks and modern data engineering practices
-- 🌱 Contributing to open-source ML tools and healthcare AI frameworks
-- 💡 Developing production-grade AI solutions that bridge research and real-world business impact
-- 📚 Exploring the intersection of vector databases, LLMs, and data engineering for AI-powered analytics
+- Building RAG systems that don't hallucinate medical advice (harder than it sounds)
+- Making large-scale data pipelines that actually finish running before the heat death of the universe
+- Contributing to open-source when I'm not fighting with Docker containers
+- Figuring out how to make vector databases and SQL databases be friends
+- Trying to convince people that "just prompt ChatGPT" isn't always the solution
 
 ---
 
 ## 📫 Let's Connect!
 
-I'm always open to collaborating on interesting ML/AI projects or discussing research ideas!
+Always up for chatting about ML projects, debugging production nightmares, or why your model works on your laptop but nowhere else.
 
 - 💼 [LinkedIn](https://linkedin.com/in/sai-siddharth-duvvada)
-- 📧 Reach out for collaborations or opportunities
+- 📧 Hit me up for collabs, opportunities, or hot takes on the latest AI hype
 
 ---
 
 <div align="center">
 
-### ⚡ "Building AI systems that bridge research and real-world impact"
+### ⚡ "Building AI that works in production, not just in notebooks"
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sidbydefault&color=blue&style=flat)
 
