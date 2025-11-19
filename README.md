@@ -6,54 +6,10 @@
 
 I'm a **Machine Learning Engineer** with a strong foundation in AI/ML research and production systems. I specialize in building end-to-end AI solutions that bridge the gap between cutting-edge research and practical business applications. With a dual degree (B.Tech & M.S. by Research) in ECE from IIIT Hyderabad, I combine academic rigor with hands-on industry experience.
 
-Currently, I'm pushing the boundaries of **LLMs**, **RAG systems**, and **Computer Vision** to solve real-world problems in fintech, healthcare, and enterprise AI.
+Currently, I'm exploring the world of **LLMs**, **RAG systems**, and **Computer Vision** to solve real-world problems in fintech, healthcare, and enterprise AI.
 
 ---
 
-## 💼 Featured Projects
-
-### 🏥 Clinical Trial MCP Server
-*HIPAA-Compliant AI-Powered Clinical Trial Intelligence*
-
-A production-ready Model Context Protocol (MCP) server designed for healthcare institutions to deploy locally with proprietary databases, enabling intelligent clinical trial analysis and patient cohort matching.
-
-**Key Achievements:**
-- 🗄️ **Hybrid Database Architecture**: Integrated Milvus vector database with 45K AACT trial embeddings and PostgreSQL managing 400K Synthea patient records
-- 🔍 **Intelligent RAG Workflow**: Implemented semantic search combining Milvus hybrid search with open-source embeddings and SQLModel queries across demographics/conditions tables
-- 🎯 **Automated Trial Planning**:
-  - Historical trial analysis and patient cohort matching with multi-dimensional filters (age/gender/condition)
-  - Complex SQL joins for automated eligibility criteria generation
-  - Recruitment list generation with HIPAA-compliant on-premise operation
-- 🔒 **Enterprise-Ready**: Designed for institutional deployment with proprietary databases, ensuring data privacy and regulatory compliance
-
-**Tech Stack**: Python, Milvus, PostgreSQL, SQLModel, MCP Protocol, RAG, Vector Embeddings
-
----
-
-### 🛒 E-Commerce Data Analytics Platform
-*End-to-End Streaming ETL with Advanced Customer Intelligence*
-
-Enterprise-grade data analytics platform built on Databricks, implementing modern data engineering best practices with medallion architecture and automated quality controls.
-
-**Key Achievements:**
-- 🏗️ **Scalable Data Pipeline**:
-  - Architected streaming ETL using Delta Live Tables with Medallion Architecture (Bronze-Silver-Gold)
-  - Processed 180K+ customer records with PySpark for distributed computing
-  - Implemented SCD Type 2 for comprehensive historical tracking
-- ✅ **Data Quality at Scale**: Built 13 automated data quality validations ensuring pipeline reliability and data integrity
-- 📊 **Advanced Analytics & Segmentation**:
-  - Developed RFM-based customer segmentation across 8 distinct cohorts
-  - Product performance analytics spanning 5 performance tiers
-  - Strategic classification system for margin analysis and health scoring
-  - Generated actionable business insights for targeted marketing and inventory optimization
-- 🚀 **Modern MLOps Practices**:
-  - Infrastructure-as-code with Databricks Asset Bundles
-  - Multi-environment CI/CD workflows (dev/prod)
-  - Python-based synthetic data generator with parameterized SCD Type 2 scenarios for automated testing
-
-**Tech Stack**: Databricks, PySpark, Delta Live Tables, SQL, Python, CI/CD, Data Quality Testing
-
----
 ## 🎓 Education
 
 **IIIT Hyderabad** *(Aug 2017 - Dec 2022)*
@@ -119,7 +75,7 @@ I'm always open to collaborating on interesting ML/AI projects or discussing res
 
 <div align="center">
 
-### ⚡ "Building AI systems that bridge research and real-world impact"
+### ⚡ "Learning one token at a time"
 
 ![Profile Views](https://komarev.com/ghpvc/?username=sidbydefault&color=blue&style=flat)
 
